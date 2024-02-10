@@ -1262,6 +1262,14 @@ span {
   top: 0px;
 }
 
+.left-1\/2 {
+  left: 50%;
+}
+
+.top-96 {
+  top: 24rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -2545,6 +2553,14 @@ nav ul li a.active::before {
     right: -6rem;
   }
 
+  .lg\:-right-60 {
+    right: -15rem;
+  }
+
+  .lg\:-right-80 {
+    right: -20rem;
+  }
+
   .lg\:w-\[48rem\] {
     width: 48rem;
   }
@@ -2563,6 +2579,14 @@ nav ul li a.active::before {
     right: 0px;
   }
 
+  .xl\:-right-28 {
+    right: -7rem;
+  }
+
+  .xl\:-right-36 {
+    right: -9rem;
+  }
+
   .xl\:w-\[48rem\] {
     width: 48rem;
   }
@@ -2573,6 +2597,16 @@ nav ul li a.active::before {
 
   .xl\:w-\[45rem\] {
     width: 45rem;
+  }
+
+  .xl\:text-mainColor {
+    --tw-text-opacity: 1;
+    color: rgb(117 78 249 / var(--tw-text-opacity));
+  }
+
+  .xl\:text-slate-600 {
+    --tw-text-opacity: 1;
+    color: rgb(71 85 105 / var(--tw-text-opacity));
   }
 }
 
